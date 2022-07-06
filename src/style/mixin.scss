@@ -1,0 +1,6 @@
+@mixin ellipse {
+    overflow: hidden;
+    //文字太长的话，不允许换行,超出去的部分变成省略号
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
