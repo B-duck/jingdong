@@ -1,6 +1,6 @@
 <template>
     <div
-    class="mask"
+    class="mask" 
     v-if="showCart && productCompute.total>0" 
     @click="handleCart"
     />
@@ -70,8 +70,6 @@ import { useCart } from '../../commoneffect/commonCart.js'
 const useCartComputed = (shopId) =>{
     const store = useStore()
     const { productList, changeItem, productCompute } = useCart(shopId)
-
-
     //清空购物车
     //因为要传一个参数进来，所以@click上是箭头函数
     const clearCart = (shopId) =>{
