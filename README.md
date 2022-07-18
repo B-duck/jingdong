@@ -20,5 +20,6 @@ npm run build
 npm run lint
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+## Show
+
+![仿京东到家](../../source/images/README/%E4%BB%BF%E4%BA%AC%E4%B8%9C%E5%88%B0%E5%AE%B6.gif)
